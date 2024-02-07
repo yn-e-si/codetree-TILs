@@ -10,4 +10,4 @@ for score in range(n, 101):
     elif 60 <= score:
         print("D", end=" ")
     else:
-        print("E", end=" ")
+        print("F", end=" ")
