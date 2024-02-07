@@ -1,10 +1,12 @@
 a, b = map(int, input().split())
 
-ans="0."
-a *= 10
+ans=""
 
-for _ in range(20):
+for idx in range(21):
     ans += str(a//b)
     a = (a % b) * 10
+    
+    if idx == 0:
+        ans += "."
 
 print(ans)
