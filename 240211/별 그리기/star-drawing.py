@@ -6,4 +6,4 @@ for i in range(n):
 
 for i in range(n-1):
     print(" " * (i+1), end="")
-    print("*" * (3 - i*2))
+    print("*" * (2*n - i*2 -3))
