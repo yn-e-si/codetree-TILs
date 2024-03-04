@@ -1,4 +1,4 @@
-arr = list(map(int, input().split(" ")))
+arr = list(map(int, input().split()))
 count_arr = [0 for _ in range(9)]
 
 for i in arr:
